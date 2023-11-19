@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlowCondensed: ["Barlow Condensed","sans-serif"],
+        belle: ["Bellefair", "serif"]
+      }
+    },
   },
   plugins: [],
 }
