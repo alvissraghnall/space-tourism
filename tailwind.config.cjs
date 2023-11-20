@@ -1,3 +1,5 @@
+// const defaultTheme = require("tailwindcss/defualtTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
@@ -5,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         barlowCondensed: ["Barlow Condensed","sans-serif"],
-        belle: ["Bellefair", "serif"]
+        belle: ["Bellefair", "serif"],
+        barlow: ["Barlow", "sans-serif", "sans"]
       }
     },
   },

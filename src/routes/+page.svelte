@@ -26,7 +26,7 @@
 			<h2 class="text-8xl md:text-[9rem] lg:text-[10.75rem] text-white font-belle uppercase">
 				Space
 			</h2>
-			<p class="text-base md:text-lg text-white font-barlow text-justify mt-20">
+			<p class="text-base md:text-lg text-white font-barlow text-left mt-20">
 				Let's face it; if you want to go to space, you might as well genuinely go to outer space and
 				not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly
 				out of this world experience!
@@ -39,12 +39,13 @@
 				delay: 150
 			}}
 		>
-			<span
-				class="absolute rounded-full w-[15.09375rem] h-[15.09375rem] md:w-[24.35125rem] md:h-[24.35125rem] lg:h-[28.125rem] lg:w-[28.125rem]  bg-white/20 opacity-0 z-20 duration-300 group-hover:opacity-100"
-			/><a
-				class="w-[9.375rem] h-[9.375rem] md:w-[15.125rem] md:h-[15.125rem] lg:w-[17.125rem] lg:h-[17.125rem] bg-white text-darkBlue text-xl md:text-[2rem] font-belle uppercase rounded-full grid place-items-center cursor-pointer z-30"
+		<a
+				class="w-[9.375rem] h-[9.375rem] md:w-[15.125rem] md:h-[15.125rem] lg:w-[17.125rem] lg:h-[17.125rem] bg-white text-darkBlue text-xl md:text-[2rem] font-belle uppercase rounded-full grid place-items-center cursor-pointer z-30 peer"
 				href="/destination">Explore</a
 			>
+			<span
+				class="absolute rounded-full w-[15.09375rem] h-[15.09375rem] md:w-[24.35125rem] md:h-[24.35125rem] lg:h-[28.125rem] lg:w-[28.125rem]  bg-white/20 opacity-0 z-20 duration-300 peer-hover:opacity-100"
+			/>
 		</div>
 	{/if}
 	</div>
