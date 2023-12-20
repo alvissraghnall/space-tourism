@@ -14,7 +14,7 @@
 			<p class="text-slate-400 uppercase text-sm tracking-[2.36px] font-barlowCondensed">
 				avg. distance
 			</p>
-			<p class="text-white uppercase font-belle text-[1.75rem]">{item.distance}</p>
+			<p class="text-white uppercase font-belle text-[1.75rem]">{item.distance} km</p>
 		</div>
 		<div class="flex-1 text-center lg:text-left space-y-3">
 			<p class="text-slate-400 uppercase text-sm tracking-[2.36px] font-barlowCondensed">
