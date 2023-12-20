@@ -67,14 +67,14 @@
 			<img src="/icon-hamburger.svg" alt="CloseIcon" />
 		</div>
 	</nav>
-	<!--  -->
+	
 	<slot />
 </div>
 
 <style>
 
 	.hold {
-		background-image: url('/background-{pageName}-tablet.jpg');
+		background-image: url('/background-home-tablet.jpg');
 	}
 
 	@media (min-width: 768px) {
